@@ -46,16 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LockerRoom-Start.cs">
+    <Compile Include="Contacts.cs" />
+    <Compile Include="ExceptionClass.cs" />
+    <Compile Include="LockerRoom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LockerRoom-Start.Designer.cs">
-      <DependentUpon>LockerRoom-Start.cs</DependentUpon>
+    <Compile Include="LockerRoom.Designer.cs">
+      <DependentUpon>LockerRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="masterDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>masterDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LockerRoom-Start.resx">
-      <DependentUpon>LockerRoom-Start.cs</DependentUpon>
+    <EmbeddedResource Include="LockerRoom.resx">
+      <DependentUpon>LockerRoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +73,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="masterDataSet.xsc">
+      <DependentUpon>masterDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="masterDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>masterDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="masterDataSet.xss">
+      <DependentUpon>masterDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
