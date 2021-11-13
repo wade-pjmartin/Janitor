@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janitor", "Janitor.csproj", "{9397E2C3-7B1F-4F28-9F70-36227B763D5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courier", "..\Courier\Courier.csproj", "{72F83C3D-1F09-44F6-B4D2-014EB04C5ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courier.Tests", "Courier.Tests\Courier.Tests.csproj", "{05E2FFF7-3144-4D8A-BA2E-7E7DF59249A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9397E2C3-7B1F-4F28-9F70-36227B763D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9397E2C3-7B1F-4F28-9F70-36227B763D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9397E2C3-7B1F-4F28-9F70-36227B763D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F83C3D-1F09-44F6-B4D2-014EB04C5ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F83C3D-1F09-44F6-B4D2-014EB04C5ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F83C3D-1F09-44F6-B4D2-014EB04C5ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F83C3D-1F09-44F6-B4D2-014EB04C5ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E2FFF7-3144-4D8A-BA2E-7E7DF59249A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E2FFF7-3144-4D8A-BA2E-7E7DF59249A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E2FFF7-3144-4D8A-BA2E-7E7DF59249A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E2FFF7-3144-4D8A-BA2E-7E7DF59249A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
