@@ -8,7 +8,16 @@ namespace Janitor
 {
     static class ExceptionClass
     {
-        // Used to catch errors/warnings regarding Contact
+        // Used to catch errors/warnings regarding Contacts
+        // Critical Cases
+
+        // Monitoring Cases
+
+        // Duplicate and Merge Cases
+
+        // Mapping Cases
+        
+        
         static void 
 
 

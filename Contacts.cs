@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace Janitor
 {
     public class Contacts
-    {prop string 
-
+    {public string FirstName { get; set; }
+    public string LastName { get; set; }
 
 
 
